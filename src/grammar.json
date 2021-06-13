@@ -10,10 +10,6 @@
           {
             "type": "SYMBOL",
             "name": "_statement"
-          },
-          {
-            "type": "SYMBOL",
-            "name": "comment"
           }
         ]
       }
@@ -56,6 +52,10 @@
         {
           "type": "SYMBOL",
           "name": "do_statement"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "comment"
         }
       ]
     },
@@ -1156,10 +1156,6 @@
             "type": "CHOICE",
             "members": [
               {
-                "type": "SYMBOL",
-                "name": "field"
-              },
-              {
                 "type": "REPEAT1",
                 "content": {
                   "type": "SEQ",
@@ -1586,6 +1582,7 @@
     }
   ],
   "conflicts": [],
+  "precedences": [],
   "externals": [
     {
       "type": "SYMBOL",
